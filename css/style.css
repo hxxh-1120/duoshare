@@ -231,7 +231,7 @@ a:hover{
 	background-color: #000022;
 }
 /* side */
-.side{position:fixed;width:50px;height:275px;right:0;top:680px;z-index:100;}
+.side{position:fixed;width:50px;height:275px;right:0;top:600px;z-index:100;}
 .side ul li{width:50px;height:50px;float:left;position:relative;margin-bottom: 2px;}
 .side ul li .sidebox{position:absolute;width:50px;height:50px;border-radius:5px 0 0 5px;top:0;right:0;transition:all 0.3s;background:#000022;color:#fff;font:16px/50px "微软雅黑";overflow:hidden;}
 .side ul li a:hover .sidebox{width: 175px;}
@@ -244,7 +244,7 @@ a:hover{
 	width: 40px;
 	right: 10px;
 	z-index: 100;
-	top: 800px;
+	top: 710px;
 	height: 80px;
 }
 .side2 ul li{
@@ -438,7 +438,7 @@ a:hover{
 .tit-i h5{
 	font-size: 20px;
 	color: #cacace;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-family: Arial;
 }
 .tit-i h5 span{
